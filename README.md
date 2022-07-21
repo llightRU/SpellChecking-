@@ -5,13 +5,15 @@ correct spellings (“near matches”) when the word was spelled improperly. For
 “speling” into an online dictionary, it will provide suggestions of similar words that I may have 
 meant to type, including “spelling”, “spoiling”, “sapling”, and “splendid”.
 
-<h1> Method
-<h2>First thing have to do in a spell checking model is create the required dependencies
-<h3>1. Dictionary
+ Method
+First thing have to do in a spell checking model is create the required dependencies
+1. Dictionary
   Cause this project is based on probability of word apprear in dictionary so, the word will be extract from some standard passage Eng, novel: romeo and juliet, sherlock holmes
   
-<h3>2. Candidate correction from the word
+2. Candidate correction from the word
   4 regular method are delete, swap, replace, insert
+  
+  
 
 We can identify four main components in the final expression:
 
